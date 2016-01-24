@@ -1,0 +1,11 @@
+.atom/.apm
+.atom/.node-gyp
+.atom/packages
+.atom/compile-cache
+.atom/storage
+.atom/blob-store
+.atom/init.coffee
+.atom/snippets.cson
+.atom/dev
+.atom/.npm
+.atom/.node-gyp

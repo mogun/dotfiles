@@ -1,0 +1,3 @@
+git-plus@5.12.0
+minimap@4.19.0
+merge-conflicts@1.3.7

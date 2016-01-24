@@ -1,0 +1,10 @@
+"*":
+  core:
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+  editor:
+    invisibles: {}
+  welcome:
+    showOnStartup: false
