@@ -1,13 +1,10 @@
 let g:hybrid_use_Xresources = 1
 
-" カラースキーマの設定
-colorscheme hybrid
-
 " 色付け
 syntax on
 
-" VimをなるべくVi互換にする
-set compatible
+" VimをVi互換にしない
+set nocompatible
 
 " 行頭行末の左右移動で行をまたぐ
 set whichwrap=b,s,h,l,<,>,[,]

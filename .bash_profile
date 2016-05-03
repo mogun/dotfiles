@@ -6,4 +6,5 @@ fi
 # rbenv
 eval "$(rbenv init -)"
 
+export TERM=xterm
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
