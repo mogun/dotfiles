@@ -1,5 +1,5 @@
-# Application Shortcuts
-alias coda='open -g -a Coda' # ターミナルからCodaを開く
+# setting for prompt
+PS1='\n\[\e[1;33m\]\u@\h \w ->\n\e[1;34m\]\$\[\e[m\] '
 
 # for shortcut
 alias up='cd ..'
@@ -18,6 +18,7 @@ alias grep='grep --exclude=*.svn*'
 alias greprn='grep -rn --exclude=*.svn*'
 alias bye='sudo shutdown -h now'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias coda='open -g -a Coda' # ターミナルからCodaを開く
 
 # for pythonbrew
 [[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
