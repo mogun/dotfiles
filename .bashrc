@@ -17,6 +17,7 @@ alias sr='screen -d -R'
 alias grep='grep --exclude=*.svn*'
 alias greprn='grep -rn --exclude=*.svn*'
 alias bye='sudo shutdown -h now'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # for pythonbrew
 [[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
