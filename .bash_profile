@@ -3,8 +3,10 @@ if [ -f ~/.bashrc ]; then
 . ~/.bashrc
 fi
 
-# rbenv
-eval "$(rbenv init -)"
+# setting collor term
+export TERM=xterm-256color
 
-export TERM=xterm
+export LC_ALL='ja_JP.UTF-8'
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
+
+export EDITOR=vim
