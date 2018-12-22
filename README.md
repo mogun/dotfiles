@@ -1,9 +1,11 @@
 # moguo's dotfiles
 
 ```sh
-ln -s /clone/dir/.bashrc ~/.bashrc
-ln -s /clone/dir/.vimrc ~/.vimrc
-ln -s /clone/dir/.zshrc ~/.zshrc
-ln -s /clone/dir/.vim ~/.vim
-ln -s /clone/dir/.tmux.conf ~/.tmux.conf
+$ cd /clone/dir/
+$ CLONE_DIR=$(pwd)
+$ ln -s ${CLONE_DIR}/.bash_profile ${HOME}/.bash_profile
+$ ln -s ${CLONE_DIR}/.bashrc ${HOME}/.bashrc
+$ ln -s ${CLONE_DIR}/.vimrc ${HOME}/.vimrc
+$ ln -s ${CLONE_DIR}/.tmux.conf ${HOME}/.tmux.conf
+$ ln -s ${CLONE_DIR}/.vimrc ${HOME}/.vimrc
 ```

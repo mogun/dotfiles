@@ -3,6 +3,8 @@ if [ -f ~/.bashrc ]; then
 . ~/.bashrc
 fi
 
+export PATH="/usr/local/opt/gettext/bin:$PATH"
+
 # setting collor term
 export TERM=xterm-256color
 
