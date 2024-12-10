@@ -41,3 +41,6 @@ export PATH="$PATH:/Users/moguo/sdk/flutter/bin"
 
 # for progate
 export PATH=$HOME/.progate/bin:$PATH
+
+# for JDK
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
