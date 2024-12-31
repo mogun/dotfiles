@@ -44,3 +44,10 @@ export PATH=$HOME/.progate/bin:$PATH
 
 # for JDK
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+# for Android Studio Emulator
+export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+
+# Created by `pipx` on 2024-12-31 04:34:31
+export PATH="$PATH:/Users/moguo/.local/bin"
