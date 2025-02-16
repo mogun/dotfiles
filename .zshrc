@@ -33,8 +33,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# version management for ruby
-eval "$(rbenv init - zsh)"
+# for mise
+eval "$(~/.local/bin/mise activate)"
 
 # for flutter
 export PATH="$PATH:/Users/moguo/sdk/flutter/bin"
@@ -51,3 +51,4 @@ export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME
 
 # Created by `pipx` on 2024-12-31 04:34:31
 export PATH="$PATH:/Users/moguo/.local/bin"
+
