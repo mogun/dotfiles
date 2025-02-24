@@ -31,6 +31,7 @@ brew "jq"
 brew "libfido2"
 brew "libpq"
 brew "libyaml"
+brew "mise"
 brew "mvfst"
 brew "mysql-client@8.0"
 brew "php", restart_service: :changed
