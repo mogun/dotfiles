@@ -14,3 +14,6 @@ cp ~/.config/mise/config.toml mise/config.toml
 rm ~/.Brewfile
 brew bundle dump --global
 cp ~/.Brewfile .Brewfile
+
+mkdir -p .config/ghostty
+cp ~/.config/ghostty/* .config/ghostty/
