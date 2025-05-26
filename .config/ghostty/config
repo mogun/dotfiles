@@ -1,5 +1,6 @@
 font-family = "JetBrains Mono"
 font-size = 14
+font-feature = -dlig
 background-opacity = 0.95
 unfocused-split-opacity = 0.2
 copy-on-select = clipboard
